@@ -1,6 +1,6 @@
 name: Hello World Workflow
 'on':
-  - commit
+  - push
 jobs:
   say-hello:
     runs-on: ubuntu-latest
