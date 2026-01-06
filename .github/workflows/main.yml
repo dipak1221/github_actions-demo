@@ -1,0 +1,14 @@
+name: Hello World Workflow
+'on':
+  - commit
+jobs:
+  say-hello:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print Hello World
+        run: echo "Hello World!" & echo "hello man"
+  hello2:
+    runs-on: ubuntu-latest
+    steps:
+      - name: hello2
+        run: echo "hello2"
